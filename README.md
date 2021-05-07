@@ -24,4 +24,14 @@ Authorization - privileges to resources (403 forbidden)
 
 ## http cookie
 Cookie usually stores in headers
+
 Server set cookie with Set Cookie method, like ```Set-Cookie: session-id=token```
+
+## Tokens - like sessions
+1. Main differens if user in db, server generate and signing with special key a token
+2. And server send this token with headers or with JSON body
+3. Browser save this token in session storage or in local storage (server doesnt save anythong, **stateless**)
+4. Than user use this token and send it in headers, if valid server gives access to user
+* Vulnerable to XXS attacks
+* Use in SPA, API for web and mobile apps
+* Best practice save tokens in HttpOnly(saved in browser) cookie
