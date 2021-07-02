@@ -14,8 +14,8 @@ Authentication - access to resources (401 unauthorized)
 Authorization - privileges to resources (403 forbidden)
 
 ## Session
-1. user
-2. db
+1. user send login\pwd to server
+2. server to db and check
 3. server create session (generate cookie, in cookie session id)
 4. back to user
 5. in every reqeust to server user send this cookie with session id
