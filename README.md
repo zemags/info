@@ -1,37 +1,12 @@
-## Clean architecture
-* Easy system testing and scaling
-* Easy to change dependencies (like db, frameworks)
-* Any user interface
-* business logic layer do not depend on database<br>
-
-========================<br>
-http requests -> handler -> service(business logic layer) -> repository(db)
-
-JWT Token - any requests from users with token to identify user
-
-Authentication - access to resources (401 unauthorized)
-
-Authorization - privileges to resources (403 forbidden)
-
-## Session
-1. user send login\pwd to server
-2. server to db and check
-3. server create session (generate cookie, in cookie session id)
-4. back to user
-5. in every reqeust to server user send this cookie with session id
-6. server validate and give access to resources
-7. when user leave server, the server remove session and clean the cookie
-
-## http cookie
-Cookie usually stores in headers
-
-Server set cookie with Set Cookie method, like ```Set-Cookie: session-id=token```
-
-## Tokens - like sessions
-1. Main differens if user in db, server generate and signing with special key a token
-2. And server send this token with headers or with JSON body
-3. Browser save this token in session storage or in local storage (server doesnt save anythong, **stateless**)
-4. Than user use this token and send it in headers, if valid server gives access to user
-* Vulnerable to XXS attacks
-* Use in SPA, API for web and mobile apps
-* Best practice save tokens in HttpOnly(saved in browser) cookie
+1. [ Sql](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/1_sql.md)
+2. [Postgres Or Mysql](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/2_postgres_or_mysql.md)
+3. [ACID](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/3_acid.md)
+4. [NoSQL](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/4_nosql.mdv)
+5. [CAP](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/5_cap.md)
+6. [SQL Injection](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/6_sql_injection.md)
+7. [XSS](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/7_xss.md)
+8. [Hash Coding Encrypting](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/8_hash_coding_encrypting.md)
+9. [Newtwork Protocols](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/9_network_protocols.md)
+10. [HTTPs](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/10_https.md)
+11. [Load Scaling](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/11_load_scaling.md)
+12. [JWT Session](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/12_jwt_session.md)
