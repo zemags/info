@@ -1,9 +1,3 @@
-## Clean architecture
-* Easy system testing and scaling
-* Easy to change dependencies (like db, frameworks)
-* Any user interface
-* business logic layer do not depend on database<br>
-
 ========================<br>
 http requests -> handler -> service(business logic layer) -> repository(db)
 
