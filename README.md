@@ -15,4 +15,5 @@
 15. [Proxy And Reverse Proxy](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/15_proxy_reverse_proxy.md)
 16. [Load Balancing](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/16_load_balancing.md)
 17. [Twelve-Factor App](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/17_twelve_factor_app.md)
-14. [DDD and Clean Architecture](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/18_ddd_clean_architecture.md)
+18. [DDD and Clean Architecture](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/18_ddd_clean_architecture.md)
+19. [Big Data](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/19_big_data.md)
