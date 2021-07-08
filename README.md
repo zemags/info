@@ -24,3 +24,4 @@
 24. [NGINX](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/24_nginx.md)
 25. [Web Server](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/25_web_server.md)
 26. [SSL](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/26_ssl.md)
+27. [SOLID](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/27_solid.md)
