@@ -21,3 +21,4 @@
 21. [SSH](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/21_ssh.md)
 22. [Docker](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/22_docker.md)
 23. [DNS](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/23_dns.md)
+24. [NGINX](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/24_nginx.md)
