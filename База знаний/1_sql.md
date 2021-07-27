@@ -1,6 +1,9 @@
 **sql**
 ##### create
 ```
+create user 'username'@'localhost' identified by 'password';
+grant all privileges on database_name.* to 'username'@'localhost'; 
+create database if not exists database_name;
 create table table_1 (id int auto_increment primary key, column_1 varchar(10) not null);
 ```
 ##### alter
