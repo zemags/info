@@ -66,6 +66,7 @@ select * from table_1 **union [all]** select * from table_2;
 ##### intersect - find all from table_2 who in table_1
 ```
 select column_1 from table_1 **intersect** select column_1 from table_2; (column_1 the same)
+in mysql: select column_1 from table_1 where column_1 in (sleect column_1 from table_2)
 ```
 ##### minus - find all from table_2 who not in table_1
 ```
