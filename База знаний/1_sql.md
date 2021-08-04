@@ -1,6 +1,9 @@
 **sql**
 ##### create
 ```
+create user 'username'@'localhost' identified by 'password';
+grant all privileges on database_name.* to 'username'@'localhost'; 
+create database if not exists database_name;
 create table table_1 (id int auto_increment primary key, column_1 varchar(10) not null);
 ```
 ##### alter
@@ -63,6 +66,7 @@ select * from table_1 **union [all]** select * from table_2;
 ##### intersect - find all from table_2 who in table_1
 ```
 select column_1 from table_1 **intersect** select column_1 from table_2; (column_1 the same)
+in mysql: select column_1 from table_1 where column_1 in (sleect column_1 from table_2)
 ```
 ##### minus - find all from table_2 who not in table_1
 ```
