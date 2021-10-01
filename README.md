@@ -32,3 +32,4 @@
 32. [GIT Flow](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/32_git_flow.md)
 33. [Grok Algorithms](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/33_grok_algorithms.md)
 34. [All About Asynchrony](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/34_asynchrony.md)
+35. [REST](https://github.com/zemags/info/blob/master/%D0%91%D0%B0%D0%B7%D0%B0%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9/35_rest.md)
